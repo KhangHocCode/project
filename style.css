@@ -10,6 +10,15 @@ body {
   background-attachment: fixed;
   font-family: "Be Vietnam Pro", sans-serif;
   background-size: cover;
+  scroll-behavior: smooth;
+}
+input,
+button,
+textarea {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 #teamsDisplay {
   margin-top: 20px;
@@ -116,7 +125,7 @@ table {
   color: #f4f4f9;
   border-radius: 8px;
   overflow: hidden;
-  animation: slideUp 0.7s ease-out;
+  animation: slideUp 1.0s ease-out;
 }
 
 th,
@@ -150,6 +159,15 @@ th {
   height: 100%;
   scroll-behavior: smooth;
   padding-right: 15px;
+  scrollbar-width: none;
+  border-radius: 8px;
+}
+.team-table::-webkit-scrollbar {
+  display: none;
+}
+.team-table{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .team-section h3 {

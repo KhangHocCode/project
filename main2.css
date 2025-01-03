@@ -58,12 +58,15 @@ button {
   margin: 30px 20px;
   font-weight: 400;
 }
+
 .section-btn {
   margin-top: 10px;
+  display: flex;
+  padding: 0 100px;
 }
 .section1 {
   width: 900px;
-  height: 300px;
+  height: 450px;
   background-image: url(nen-xanh2.png);
   border-radius: 25px;
   background-position: center;
